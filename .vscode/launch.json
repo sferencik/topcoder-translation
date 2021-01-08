@@ -10,18 +10,12 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/net5.0/translation.dll",
-            "args": [],
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/translation.exe",
+            "args": ["Here comes the story of the Hurricane The man the authorities came to blame For somethin' that he never done Put in a prison cell, but one time he could-a been The champion of the world"],
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
-        },
-        {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
-            "request": "attach",
-            "processId": "${command:pickProcess}"
         }
     ]
 }
