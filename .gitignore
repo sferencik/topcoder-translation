@@ -1,0 +1,6 @@
+# Build results
+bin/
+obj/
+
+# P4Merge
+*.orig
