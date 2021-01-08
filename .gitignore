@@ -4,3 +4,7 @@ obj/
 
 # P4Merge
 *.orig
+
+# input/output files
+source.txt
+target.txt
